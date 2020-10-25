@@ -8,11 +8,40 @@ body{
     color: #697F32;
     background-color: #F7F7F7;
 }
+.main{
+    margin-left: 5em;
+    height: 500px;
+}
+.sec-logo img{
+    transform: scale(0.6);
+}
+.t-nav a {
+    color: #697F32;
+}
+.t-nav a:hover{
+    color: #a8b687;
+}
+.t-nav-logo img{
+    width: 60px;
+    height: 60px;
+}
 .logo-header-a{
     position: fixed;
     top: 2em;
     left: 1em;
 }
+.t-instagram{
+    position: absolute;
+    bottom: -2em;
+    left: 2.5em;
+    display: inline-block;
+}
+
+.t-instagram img{
+    width: 30px;
+    height: 30px;
+}
+
 .instagram{
     position: absolute;
     bottom: 3em;
@@ -30,7 +59,7 @@ body{
     height: 60px;
 }
 
-nav{
+.l-nav{
     position: fixed;
     top: 0;
     left: 0;
@@ -40,7 +69,7 @@ nav{
     overflow: hidden;
 }
 
-nav::after{
+.l-nav::after{
     content: "";
     display: block;
     width: 1px;
@@ -50,7 +79,6 @@ nav::after{
     top: 2em;
     right: 0;
 }
-
 ul{
     display: flex;
     position: absolute;
