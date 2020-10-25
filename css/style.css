@@ -9,11 +9,15 @@ body{
     background-color: #F7F7F7;
 }
 .main{
-    margin-left: 5em;
     height: 500px;
 }
-.sec-logo img{
-    transform: scale(0.6);
+.sec-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+    /*padding-left: 5em;*/
 }
 .t-nav a {
     color: #697F32;
