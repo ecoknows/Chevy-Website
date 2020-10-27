@@ -11,33 +11,38 @@ body{
     color: #697F32;
     background-color: #F7F7F7;
     height: 100%;
+    touch-action: pan-y;
 }
 .main{
     height: 500px;
 }
 ::-webkit-scrollbar {
-    width: 0px;  /* Remove scrollbar space */
+    width: 15px;
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 200px;
+    background: #697F32;  /* Optional: just make scrollbar invisible */
+    }
+.sec-logo::-webkit-scrollbar-thumb {
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
 /* Optional: show position indicator in red */
-::-webkit-scrollbar-thumb {
-    background: #FF0000;
-}
+
 .sec-logo{
-    background-color: red;
     overflow-x: scroll;
     white-space: nowrap;
     height: 100vh;
+    -webkit-overflow-scrolling: touch; /* momentum scrolling, iOS Safari only*/
     /*padding-left: 5em;*/
 }
 
 .sec-logo div{
-    display: inline;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
 }
-
-
 .sec-mission{
-    background-color: lightblue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,9 +51,7 @@ body{
     /*padding-left: 5em;*/
 }
 
-
 .sec-contacts{
-    background-color: rebeccapurple;
     display: flex;
     align-items: center;
     justify-content: center;
