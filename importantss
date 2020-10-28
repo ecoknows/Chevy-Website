@@ -1,0 +1,24 @@
+
+
+                                <img src="./assets/image/foods/dinner-salad.png"  class="img-fluid" alt="Responsive image">
+                                <img src="./assets/image/foods/rosemary-pork-chop.png"  class="img-fluid" alt="Responsive image">
+
+
+                                
+                        <div class="col-lg-10 sub-body" >
+                            <div class="container-fluid 
+                                        d-flex 
+                                        align-items-center 
+                                        justify-content-center" 
+                                        style="padding-bottom: 100px;"
+                            >
+                                  <img src="./assets/image/img/intro.png"  class="img-fluid" alt="Responsive image">
+                            </div>
+                        </div>
+
+
+     <img src="./assets/image/foods/dinner-salad.png"  class="img-fluid" alt="Responsive image">
+                                        <h1>Rosemary Pork Chop</h1>
+                                        <p>Juicy pork chops with just a hint of rosemary</p>
+                                        <p>and garlic over savory spinach and simple</p>
+                                        <p>mashed potatoes.</p>
