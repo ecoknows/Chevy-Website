@@ -1,0 +1,41 @@
+
+/* Sec- logo */
+.sec-cuisine .main .body::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+.sec-cusine .main .body::-webkit-scrollbar-thumb {
+    background:transparent;  /* Optional: just make scrollbar invisible */
+}
+.sec-cuisine .main .body .sub-body .container-fluid::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+.sec-cuisine .main{
+    height: 100vh;
+}
+.sec-cuisine .main .left {
+    height: 100vh;
+}
+
+.sec-cuisine .main .body{
+     height: 110%; 
+     overflow: auto; 
+     white-space: nowrap; 
+     display: inline-block;
+}
+
+.sec-cuisine .main div{
+    overflow-x: hidden;
+}
+
+.sec-cuisine .main .body .sub-body{
+    display: inline-block; 
+    vertical-align: top;
+    height: 100%;
+}
+
+
+.sec-cuisine .main .body .sub-body .container-fluid{
+     height: 100%;
+}
