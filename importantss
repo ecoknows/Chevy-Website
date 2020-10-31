@@ -22,3 +22,10 @@
                                         <p>Juicy pork chops with just a hint of rosemary</p>
                                         <p>and garlic over savory spinach and simple</p>
                                         <p>mashed potatoes.</p>
+
+
+                                        <img src="./assets/image/foods/dinner-salad.png"  class="img-fluid" alt="Responsive image">
+                                                    <h1>Dinner Salad</h1>
+                                                    <p>Eating salads is a super-convenient way to</p>
+                                                    <p>work in a couple of servings of vegetables</p>
+                                                    <p>and/or fruit. </p>
