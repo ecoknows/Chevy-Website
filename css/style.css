@@ -205,11 +205,20 @@ div[class^="col-"]{
 .test{
     background-color: blue;
 }
-
-.l-nav ul li a {
+.menu{
+    margin-right: 5px; 
+    text-decoration: none;
     color: #697F32;
 }
-.l-nav ul li a:hover{
+
+.menu:hover{
+    color: #F7F7F7;
+    background-color: #697F32;
+}
+.l-nav ul li .txt {
+    color: #697F32;
+}
+.l-nav ul li .txt:hover{
     color: #a8b687;
 }
 li:nth-last-child(n+2) {
