@@ -1,47 +1,49 @@
 
 /* Sec- logo */
-.sec-cuisine .main .body::-webkit-scrollbar {
-    width: 0px;
+.sec-cuisine .cuisine-main .cuisine-body::-webkit-scrollbar {
+    width: 10px;
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
-.sec-cusine .main .body::-webkit-scrollbar-thumb {
+.sec-cusine .cuisine-main .cuisine-body::-webkit-scrollbar-thumb {
     background:transparent;  /* Optional: just make scrollbar invisible */
 }
-.sec-cuisine .main .body .sub-body::-webkit-scrollbar {
+
+.sec-cuisine .cuisine-main .cuisine-body .cuisine-sub-body::-webkit-scrollbar {
     width: 0px;
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
-.sec-cuisine .main .body .sub-body ::-webkit-scrollbar {
+.sec-cuisine .cuisine-main .cuisine-body .cuisine-sub-body ::-webkit-scrollbar {
     width: 0px;
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
-.sec-cuisine .main{
+.sec-cuisine .cuisine-main{
     height: 100vh;
 }
-.sec-cuisine .main .left {
+.sec-cuisine .cuisine-main .left {
     height: 100vh;
 }   
 
-.sec-cuisine .main .body{
-     height: 110%; 
+.sec-cuisine .cuisine-main .cuisine-body{
+     height: 100%; 
      overflow: auto; 
      white-space: nowrap; 
      display: inline-block;
 }
 
-.sec-cuisine .main div{
+.sec-cuisine .cuisine-main div{
     overflow-x: hidden;
 }
 
-.sec-cuisine .main .body .sub-body{
+.sec-cuisine .cuisine-main .cuisine-body .cuisine-sub-body{
     display: inline-block; 
     vertical-align: top;
-    height: 100%;
+    scroll-behavior: smooth; 
+    height: 80%;
 }
 
 
-.sec-cuisine .main .body .sub-body .container-fluid{
+.sec-cuisine .cuisine-main .cuisine-body .cuisine-sub-body .container-fluid{
      height: 100%;
 }
 

@@ -21,8 +21,7 @@ body{
     font-size: 14px;
     color: #697F32;
     background-color: #F7F7F7;
-    height: 100%;
-    touch-action: pan-y;
+    
     overflow-x: hidden;
 }
 span{
@@ -118,6 +117,9 @@ p{
 }
 .t-nav a:hover{
     color: #a8b687;
+}
+.t-nav-logo{
+    position: fixed;
 }
 .t-nav-logo img{
     width: 60px;
