@@ -21,7 +21,6 @@ body{
     font-size: 14px;
     color: #697F32;
     background-color: #F7F7F7;
-    
     overflow-x: hidden;
 }
 span{
@@ -46,9 +45,6 @@ p{
     text-align: center;
 }
 
-.main{
-    height: 500px;
-}
 ::-webkit-scrollbar {
     width: 15px;
     background: transparent;  /* Optional: just make scrollbar invisible */
@@ -118,12 +114,9 @@ p{
 .t-nav a:hover{
     color: #a8b687;
 }
-.t-nav-logo{
-    position: fixed;
-}
 .t-nav-logo img{
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
 }
 .logo-header-a{
     position: fixed;
@@ -132,9 +125,7 @@ p{
     z-index: 2;
 }
 .t-instagram{
-    position: absolute;
-    bottom: -2em;
-    left: 2.5em;
+    margin-left: 1.3em;
     display: inline-block;
 }
 

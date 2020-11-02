@@ -18,7 +18,7 @@
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
 .sec-cuisine .cuisine-main{
-    height: 100vh;
+    height: 95vh;
 }
 .sec-cuisine .cuisine-main .left {
     height: 100vh;
