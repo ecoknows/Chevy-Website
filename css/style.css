@@ -11,7 +11,10 @@
     font-family: open_sans_regular;
     src: url(../assets/fonts/OpenSans-Regular.ttf);
 }
-
+@font-face{
+    font-family: monbaiti;
+    src: url(../assets/fonts/monbaiti.ttf);
+}
 
 html{
   scroll-behavior: smooth;
@@ -217,3 +220,17 @@ div[class^="col-"]{
 li:nth-last-child(n+2) {
     margin-left: 10vh;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    
+    #the_image{
+        background-position: center;
+        margin-right: 40px;
+    }
+
+    #the_image_verse{
+        background-position: center;
+        margin-left: 40px;
+    }
+  }
