@@ -233,4 +233,62 @@ li:nth-last-child(n+2) {
         background-position: center;
         margin-left: 40px;
     }
-  }
+} 
+
+@keyframes blinking_anim{
+    0%{ opacity: 0; }
+    50% { opacity: 1;}
+    100%{ opacity: 0; }
+}
+
+@keyframes line-scale-anim{
+    0%{ transform: scale(0); }
+    50% { transform: scale(1);}
+    80% { transform: scale(1);}
+    100%{ transform: scale(0); }
+}
+
+@keyframes info-translate-anim{
+    0%{ transform: translateX(-150px); }
+    100%{  transform: translateX(0px);}
+}
+#food-line{
+    transform: scale(0);
+    transition: transform 2s 2s;
+}
+#food-info{
+    transform: translateX(-150px);
+}
+#food:hover #food-line{
+    animation: line-scale-anim 3s 0s normal forwards ease-in-out;
+}
+
+#food:hover #food-info{
+    animation: info-translate-anim 2s 0s normal forwards ease-in-out;
+}
+#cuisine_arrow{
+    animation: blinking_anim 2s 0s normal forwards ease-in-out infinite;
+}
+
+
+
+
+@keyframes info-translate-left-anim{
+    0%{ transform: translateX(150px); }
+    100%{  transform: translateX(0);}
+}
+
+#food-line-left{
+    transform: scale(0);
+    transition: transform 2s 2s;
+}
+#food-info-left{
+    transform: translateX(150px);
+}
+#food-left:hover #food-line-left{
+    animation: line-scale-anim 3s 0s normal forwards ease-in-out;
+}
+
+#food-left:hover #food-info-left{
+    animation: info-translate-left-anim 2s 0s normal forwards ease-in-out;
+}

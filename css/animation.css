@@ -1,0 +1,59 @@
+@keyframes blinking_anim{
+    0%{ opacity: 0; }
+    50% { opacity: 1;}
+    100%{ opacity: 0; }
+}
+@keyframes splash{
+    0%{ opacity: 0; }
+    100%{ opacity: 1; }
+}
+@keyframes moving_line{
+    0%{ right: 50px; opacity: 0;}
+    100%{ right: 0px; opacity: 1;}
+}
+
+
+/* CLASS */
+
+.l-nav::after{
+    opacity: 0;
+    right: 50px;
+    animation: moving_line 1.5s 3s normal forwards ease-in-out;
+}
+.instagram{
+    opacity: 0;
+    animation: splash 2s 3.5s normal forwards ease-in-out;
+}
+.logo-header-a{
+    opacity: 0;
+    animation: splash 2s 3.5s normal forwards ease-in-out;
+}
+
+/* ID */
+
+#entry-title{
+    opacity: 0;
+    animation: splash 2s 0s normal forwards ease-in-out;
+}
+
+#cuisine_arrow{
+    opacity: 0;
+    animation: blinking_anim 2s 6s normal forwards ease-in-out infinite;
+}
+
+
+#l-nav-cuisine{
+    opacity: 0;
+    animation: splash 2s 4s normal forwards ease-in-out;
+}
+
+#l-nav-mission{
+    opacity: 0;
+    animation: splash 2s 5s normal forwards ease-in-out;
+}
+
+#l-nav-contacts{
+    opacity: 0;
+    animation: splash 2s 6s normal forwards ease-in-out;
+}
+
